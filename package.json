@@ -1,0 +1,29 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "npm install --save-dev nodemon",
+  "scripts": {
+    "start": "nodemon --inspect ./App_demo.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nguyenvangithub/Demo_nodeJS.git"
+  },
+  "keywords": [
+    "demoJS"
+  ],
+  "author": "NguyenVan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nguyenvangithub/Demo_nodeJS/issues"
+  },
+  "homepage": "https://github.com/nguyenvangithub/Demo_nodeJS#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
